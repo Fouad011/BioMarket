@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "544654325147",
+    "firebase_url": "https://biomarket-cservice-default-rtdb.firebaseio.com",
+    "project_id": "biomarket-cservice",
+    "storage_bucket": "biomarket-cservice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544654325147:android:8e4b2efa2cecdbcf9add3e",
+        "android_client_info": {
+          "package_name": "com.example.biomarket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJR0NIfEdneatE5Aea_URxPJ85fvtR9p4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544654325147:android:6d84066acc03f30f9add3e",
+        "android_client_info": {
+          "package_name": "com.example.shopship"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJR0NIfEdneatE5Aea_URxPJ85fvtR9p4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ProfilePicActivity"
+    android:background="@color/light_grey"
+    android:gravity="center"
+    android:padding="15dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/idee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="150dp"
+            app:cardElevation="20dp">
+
+
+            <ImageView
+                android:id="@+id/imageView_profile_img"
+                android:layout_width="235dp"
+                android:layout_height="235dp"
+                android:layout_below="@+id/set_img_button"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:background="@drawable/no_profile_pic"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/Circular"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:id="@+id/upload_img_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_below="@id/img_section"
+            android:fontFamily="@font/poppins_medium"
+            android:background="@drawable/botton_bg"
+            android:textColor="@color/white"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="70dp"
+            android:text="Upload" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/idee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/border_white"
+        android:drawableStart="@drawable/baseline_question_mark_24"
+        android:drawableTint="@color/grey"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
+        android:text="appuyez sur l'image \n pour choisir votre image"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:alpha="1"
+        android:background="@color/light_grey"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:padding="17dp"
+            android:src="@drawable/logo" />
+
+
+        <ProgressBar
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/progress_bg" />
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CategoryActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/imageViewFilter"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/line_filter_800"
+                    android:layout_gravity="center_vertical"
+                    android:alpha="0.5"
+                    android:layout_marginStart="10dp"/>
+
+                <TextView
+                    android:visibility="visible"
+                    android:id="@+id/textViewMsg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="filtrer les resultat"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_gravity="center"
+                    android:textSize="17dp"
+                    android:layout_marginStart="10dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutSearch"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    app:passwordToggleEnabled="false">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/inputSearch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/line_search_24"
+                        android:drawablePadding="20sp"
+                        android:hint="search"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:fontFamily="@font/poppins_medium"
+                        android:shadowRadius="@integer/material_motion_duration_long_1"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/linearLayoutForFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:passwordToggleEnabled="false">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/inputMinPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/line_search_24"
+                            android:drawablePadding="20sp"
+                            android:hint="min price"
+                            android:inputType="number"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/grey"
+                            android:fontFamily="@font/poppins_medium"
+                            android:shadowRadius="@integer/material_motion_duration_long_1"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:passwordToggleEnabled="false">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/inputMaxPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/line_search_24"
+                            android:drawablePadding="20sp"
+                            android:hint="max price"
+                            android:inputType="number"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/grey"
+                            android:fontFamily="@font/poppins_medium"
+                            android:shadowRadius="@integer/material_motion_duration_long_1"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/textViewAlert"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:textColor="@color/red"
+                    android:text=""/>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="13dp">
+                    <TextView
+                        android:id="@+id/textViewSearch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:padding="7dp"
+                        android:textSize="17dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textAlignment="center"
+                        android:background="@color/light_grey"
+                        android:text="Search"
+                        />
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Popular Products"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/allProducts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="2"
+                tools:listitem="@layout/product_template"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

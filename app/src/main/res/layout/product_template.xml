@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="175dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="9dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="10dp">
+<!--    width: 180 -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/infoProd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="115.5dp"
+                    android:layout_marginTop="1dp"
+                    android:src="@drawable/test_product"
+                    android:contentDescription="@string/todo" />
+                <!--    height: 118.7 -->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/textHeading"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:paddingBottom="3dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/productName"
+                        android:layout_width="match_parent"
+                        android:layout_height="37dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="@string/shampooing_solide_2_en_1_huile_de_coco_bio_60g"
+                        android:textAlignment="center"
+                        android:textSize="13sp" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/priceProduct"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/productName"
+                        android:orientation="horizontal"
+                        android:layout_marginStart="5dp"
+                        android:layout_gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="21dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/integerPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/_999"
+                                android:textSize="17sp"
+                                android:textColor="@color/textHeading"
+                                android:fontFamily="@font/poppins_bold"
+                                android:textStyle="bold"
+                                android:gravity="center_horizontal"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:weightSum="3">
+                                <TextView
+                                    android:id="@+id/decimalPrice"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/_99"
+                                    android:textSize="13sp"
+                                    android:textColor="@color/textHeading"
+                                    android:fontFamily="@font/poppins_bold"
+                                    android:layout_weight="1"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="17sp"
+                                android:layout_marginStart="5dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:textColor="@color/textHeading"
+                                android:text="@string/mad"/>
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+
+                    <TextView
+                        android:id="@+id/availability"
+                        android:layout_below="@+id/priceProduct"
+                        android:layout_width="match_parent"
+                        android:layout_height="17dp"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textAlignment="center"
+                        android:text="@string/availble"/>
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="0dp"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:id="@+id/textView_add_product"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/priceProduct"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/ajouter_au_panier"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@color/white"
+                android:background="@color/textHeading"
+                android:padding="3dp"
+                android:textAlignment="center"
+                android:focusable="true" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BioMarket" parent="Theme.Material3.Light">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/textHeading</item>
+        <item name="colorSecondary">@color/textHeading2</item>
+    </style>
+
+    <style name="HomeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/textHeading</item>
+        <item name="colorPrimaryDark">@color/textHeading</item>
+        <item name="colorSecondary">@color/textHeading2</item>
+    </style>
+
+
+    <style name="LoginTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/textHeading</item>
+        <item name="colorSecondary">@color/textHeading2</item>
+    </style>
+
+
+    <style name="Theme.BioMarket" parent="Base.Theme.BioMarket" />
+    <!-- Base application theme. -->
+<!--    <style name="Base.PrimaryActionBarTheme" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
+<!--    </style>-->
+
+<!--    <style name="PrimaryActionBarTheme" parent="Base.PrimaryActionBarTheme" />-->
+
+    <!--    <style name="PrimaryActionBarTheme" parent="Base.PrimaryActionBarTheme" />-->
+</resources>

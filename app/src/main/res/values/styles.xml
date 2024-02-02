@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PrimaryActionBarTheme" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarSize">40dp</item>
+        <item name="colorPrimary">@color/textHeading</item>
+        <item name="colorPrimaryDark">@color/textHeading</item>
+        <item name="colorSecondary">@color/textHeading2</item>
+    </style>
+</resources>
