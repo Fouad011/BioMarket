@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -20,6 +21,8 @@ import com.example.biomarket.adapters.HomeProductAdapters;
 import com.example.biomarket.database.DBProductResume;
 import com.example.biomarket.database.ShowProducts;
 import com.example.biomarket.models.ProductModel;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.io.IOException;
@@ -105,8 +108,18 @@ public class ProductDetailsActivity extends AppCompatActivity {
         addToCartShop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DBProductResume DBProductResume = new DBProductResume(getApplicationContext(), prodId, 1);
-                DBProductResume.submit();
+
+                FirebaseAuth auth = FirebaseAuth.getInstance();
+                FirebaseUser user = auth.getCurrentUser();
+                if(user!=null){
+                    DBProductResume DBProductResume = new DBProductResume(getApplicationContext(), prodId, 1);
+                    DBProductResume.submit();
+                }else {
+                    Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    startActivity(intent);
+                }
             }
         });
 

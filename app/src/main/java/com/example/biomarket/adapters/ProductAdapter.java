@@ -115,10 +115,12 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
                 FirebaseAuth auth = FirebaseAuth.getInstance();
                 FirebaseUser user = auth.getCurrentUser();
                 if(user!=null){
-                    DBProductResume DBProductResume = new DBProductResume(context, productModelList.get(position).getID().toString(), 1);
+                    DBProductResume DBProductResume = new DBProductResume(context, productModelList.get(position).getID(), 1);
                     DBProductResume.submit();
                 }else {
                     Intent intent = new Intent(context, LoginActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     context.startActivity(intent);
                 }
 

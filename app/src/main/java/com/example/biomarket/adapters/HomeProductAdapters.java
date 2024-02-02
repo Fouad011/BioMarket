@@ -15,10 +15,13 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.biomarket.activities.LoginActivity;
 import com.example.biomarket.activities.ProductDetailsActivity;
 import com.example.biomarket.R;
 import com.example.biomarket.database.DBProductResume;
 import com.example.biomarket.models.ProductModel;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 import java.util.List;
 
@@ -74,6 +77,8 @@ public class HomeProductAdapters extends RecyclerView.Adapter<HomeProductAdapter
                 intent.putExtra("price", productModelList.get(position).getPrice().toString());
                 intent.putExtra("image_url", productModelList.get(position).getImageUrl());
 
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
 
             }
@@ -82,9 +87,18 @@ public class HomeProductAdapters extends RecyclerView.Adapter<HomeProductAdapter
         holder.addToCartShop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DBProductResume DBProductResume = new DBProductResume(context, productModelList.get(position).getID().toString(), 1);
-                DBProductResume.submit();
+                FirebaseAuth auth = FirebaseAuth.getInstance();
+                FirebaseUser user = auth.getCurrentUser();
+                if(user!=null){
+                    DBProductResume DBProductResume = new DBProductResume(context, productModelList.get(position).getID(), 1);
+                    DBProductResume.submit();
+                }else {
+                    Intent intent = new Intent(context, LoginActivity.class);
+                    context.startActivity(intent);
+                }
             }
+
+
         });
 
 

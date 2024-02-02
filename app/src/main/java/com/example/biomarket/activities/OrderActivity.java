@@ -5,6 +5,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -43,6 +44,7 @@ public class OrderActivity extends AppCompatActivity {
 
 
 
+    @SuppressLint("NotifyDataSetChanged")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -97,6 +99,7 @@ public class OrderActivity extends AppCompatActivity {
                 product_cle = "product_" + i;
 //                System.out.println(product_cle);
                 ProductModel product = (ProductModel) extras.getSerializable(product_cle);
+                assert product != null;
                 System.out.println(product.getID());
                 productModelList.add(product);
                 orderAdapter.notifyDataSetChanged();
