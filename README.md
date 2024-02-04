@@ -22,7 +22,7 @@ La flèche indiquant la direction de l'activité 1 vers l'activité 2 indique la
 
 <h4 align="left">L'interface Search</h4>
 L'interface "Search" (fragment) permet aux utilisateurs de trouver rapidement et facilement les produits qu'ils recherchent, tout en mettant en évidence la possibilité d'identifier la fourchette de prix des produits.
-<br>
+
 <p align="center">
   <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/recherche.png" height="700"/>
 </p>
@@ -30,7 +30,14 @@ L'interface "Search" (fragment) permet aux utilisateurs de trouver rapidement et
 <b>Remarque </b>
 l'algorithme responsable de la recherche dans la base de données examine la récurrence de chaque mot de la requête de recherche dans les produits, en considérant à la fois le titre et la description. Il présente ensuite les produits dont le taux de répétition d'un mot est d'environ 25% ou plus. Par exemple, si la recherche porte sur "lait de vache carotte marocain 1l", un produit contenant les mots "lait" et "vache" et "marocain" et "1l" sera priorisé, tandis qu'un produit ne contenant que le mot "carotte" sera négligé dans les résultats, même s'il existe.
 
+
+
 <h4 align="left">L'interface Profile</h4>
+
+<p align="center">
+  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/recherche.png" height="700"/>
+</p>
+
 
 <h4 align="left">L'interface Pannier</h4>
 
