@@ -1,5 +1,5 @@
-<h1 align="center">Développement d’un système d’application mobile d’achat en ligne avec Android Studio.</h1>
-<h2 align="center">Le but du projet système BioMarket</h3>
+<h1 align="left">Développement d’un système d’application mobile d’achat en ligne avec Android Studio.</h1>
+<h2 align="left">Le but du projet système BioMarket</h3>
 
 - 🌱Learning all about **Telecommunications Systems, Network and Web development**
 
