@@ -28,7 +28,7 @@ L'interface "Search" (fragment) permet aux utilisateurs de trouver rapidement et
 </p>
 
 <b>Remarque </b>
-L'algorithme responsable de la recherche dans la base de données examine la récurrence de chaque mot de la requête de recherche dans les produits, en considérant à la fois le titre et la description. Il présente ensuite les produits dont le taux de répétition d'un mot est d'environ 25% ou plus. Par exemple, si la recherche porte sur "lait de vache marocain 1l", un produit contenant les mots "lait", "vache", "marocain" et "1l" sera priorisé, tandis qu'un produit ne contenant que le mot "îles" sera négligé dans les résultats, même s'il existe.
+l'algorithme responsable de la recherche dans la base de données examine la récurrence de chaque mot de la requête de recherche dans les produits, en considérant à la fois le titre et la description. Il présente ensuite les produits dont le taux de répétition d'un mot est d'environ 25% ou plus. Par exemple, si la recherche porte sur "lait de vache marocain 1l", un produit contenant les mots "lait", "vache", "marocain" et "1l" sera priorisé, tandis qu'un produit ne contenant que le mot "îles" sera négligé dans les résultats, même s'il existe.
 
 <h4 align="left">L'interface Profile</h4>
 
