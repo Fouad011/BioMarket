@@ -3,11 +3,11 @@
 <h2 align="left">Le but du projet système BioMarket</h2>
 Le projet système BioMarket vise à créer une plateforme d'achat en ligne spécialisée dans les produits biologiques. L'objectif principal est de fournir une expérience d'achat pratique et conviviale pour les clients intéressés par des produits biologiques et écologiques. Voici quelques-uns des objectifs spécifiques du projet BioMarket :
 <ul>
-  <li><i>Faciliter l'accès aux produits biologiques :</i> Offrir une plateforme où les utilisateurs peuvent facilement accéder à une variété de produits biologiques, favorisant ainsi un mode de vie plus sain et durable.</li>
-  <li><i>Gestion de compte utilisateur :</i> Permettre aux utilisateurs de créer des comptes personnels, de gérer leurs informations personnelles, et de suivre l'historique de leurs achats. Cette fonctionnalité contribue à personnaliser l'expérience utilisateur.</li>
-  <li><i>Gestion de catalogue :</i> Fournir une interface d'administration (BioMarketAdmin) permettant aux responsables de gérer le catalogue de produits, d'ajouter de nouveaux articles, de mettre à jour les informations et de gérer les stocks.</li>
-  <li><i>Confirmation de livraison :</i> Permettre aux livreurs de confirmer la livraison des produits une fois qu'ils sont remis aux clients. Cette confirmation peut déclencher des notifications pour informer les clients de la réussite de la livraison.</li>
-  <li><i>Durabilité et Responsabilité :</i> Promouvoir les principes de durabilité en favorisant les produits biologiques et en minimisant l'empreinte environnementale à travers des pratiques responsables.</li>
+  <li><i><b>Faciliter l'accès aux produits biologiques :</b>b></i> Offrir une plateforme où les utilisateurs peuvent facilement accéder à une variété de produits biologiques, favorisant ainsi un mode de vie plus sain et durable.</li>
+  <li><i><b>Gestion de compte utilisateur :</i>b></i> Permettre aux utilisateurs de créer des comptes personnels, de gérer leurs informations personnelles, et de suivre l'historique de leurs achats. Cette fonctionnalité contribue à personnaliser l'expérience utilisateur.</li>
+  <li><i><b>Gestion de catalogue :</b>b></i> Fournir une interface d'administration (BioMarketAdmin) permettant aux responsables de gérer le catalogue de produits, d'ajouter de nouveaux articles, de mettre à jour les informations et de gérer les stocks.</li>
+  <li><i><b>Confirmation de livraison :</b>b></i> Permettre aux livreurs de confirmer la livraison des produits une fois qu'ils sont remis aux clients. Cette confirmation peut déclencher des notifications pour informer les clients de la réussite de la livraison.</li>
+  <li><i><b>Durabilité et Responsabilité :</b>b></i> Promouvoir les principes de durabilité en favorisant les produits biologiques et en minimisant l'empreinte environnementale à travers des pratiques responsables.</li>
 </ul>
 
 <h2 align="left">Description</h2>
