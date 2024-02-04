@@ -1,11 +1,24 @@
 <h1 align="left">Développement d’un système d’application mobile d’achat en ligne avec Android Studio.</h1>
-<h2 align="left">Le but du projet système BioMarket</h3>
+<h2 align="left">Description</h3>
 
-- 🌱Learning all about **Telecommunications Systems, Network and Web development**
+<h2 align="left">Le but du projet système BioMarket</h3>
+<h2 align="left">Les vues du projet et comment les utiliser.</h3>
+<h2 align="left">Des liens pertinents et des personnes à contacter pour plus d'informations</h3>
+
+
+
+
+
+
+
+
+
+
+<!--- 🌱Learning all about **Telecommunications Systems, Network and Web development**
 
 - 💬 Ask me about **Python, C++, HTML, CSS, JavaScript, PHP, SQL, MYSQL**
 
-<!--<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/mourchid43" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mourchid43" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/fouad011" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="fouad011" height="30" width="40" /></a>
