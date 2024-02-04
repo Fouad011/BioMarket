@@ -74,6 +74,7 @@ L'interface Pannier affiche les produits que l’utilisateur a ajouté à son pa
 
 
 
+
 <!---
 
 <h2 align="left">Les vues du projet et comment les utiliser.</h3>
