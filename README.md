@@ -1,5 +1,8 @@
 <h1 align="left">Développement d’un système d’application mobile d’achat en ligne avec Android Studio.</h1>
 
+<h2 align="left">Le but du projet système BioMarket</h2>
+llllllllllllllll
+
 <h2 align="left">Description</h2>
 Ce projet consiste à concevoir et réaliser d’un système d’application mobile d’achat en ligne avec Android Studio, une applications mobile pour l’achat en ligne (BioMarket), et deux applications pour la gestion (BioMarketAdmin) et la livreasion (BioMarketDelivery).
 
@@ -50,7 +53,7 @@ La section "Profil" comprend la page d'accueil (fragment) et quatre activités (
 
 
 
-<!-- h2 align="left">Le but du projet système BioMarket</h3>
+
 <h2 align="left">Les vues du projet et comment les utiliser.</h3>
 <h2 align="left">Des liens pertinents et des personnes à contacter pour plus d'informations</h3>-->
 
