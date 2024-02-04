@@ -55,6 +55,9 @@ La section "Profil" comprend la page d'accueil (fragment) et quatre activités (
 <h4 align="left">L'interface Pannier</h4>
 
 
+L'interface Pannier affiche les produits que l’utilisateur a ajouté à son panier. Elle permet à l’utilisateur de voir la liste des produits, le prix total, et de prendre des actions telles que modifier la quantité d’un produit, supprimer un produit du panier, ou passer la commande.
+
+
 <p align="center">
   <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/interfacePannier.jpg" height="1000"/>
 </p>
