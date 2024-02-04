@@ -34,7 +34,7 @@ La flèche indiquant la direction de l'activité 1 vers l'activité 2 indique la
 L'interface "Search" (fragment) permet aux utilisateurs de trouver rapidement et facilement les produits qu'ils recherchent, tout en mettant en évidence la possibilité d'identifier la fourchette de prix des produits.
 
 <p align="center">
-  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/recherche.png" height="700"/>
+  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/recherche.png" height="650"/>
 </p>
 
 <b>Remarque </b>
