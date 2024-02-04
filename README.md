@@ -70,6 +70,9 @@ L'interface Pannier affiche les produits que l’utilisateur a ajouté à son pa
 </p>
 
 
+La section du panier comprend à la fois la page d'accueil (fragment) et une activité (activity) dédiée à la confirmation de la commande. Une fois la commande confirmée, le client est redirigé vers une activité qui affiche des commandes, offrant la possibilité d'explorer en détail chaque commande passée.
+
+
 
 
 
