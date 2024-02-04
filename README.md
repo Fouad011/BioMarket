@@ -15,7 +15,8 @@ L'interface initiale de l'application vous offre la possibilité de parcourir le
 
 Cette section englobe à la fois la première page (fragment) et deux activités (Activity). La première page (fragment) est spécifiquement consacrée aux catégories et classifications des produits. Une des activités facilite la présentation des produits organisés selon leurs catégories et classifications respectives. Cela offre la flexibilité de revenir à la page d'accueil (fragment) ou de se diriger vers les détails d'un produit particulier grâce à l'autre activité. De plus, cette activité intègre une section mettant en avant certains produits associés à celui affiché sur la page, enrichissant ainsi l'expérience de l'utilisateur.
 
-La fléche bilatéral entre l’activité 1 et l’activité 2 signifie que l’activité 1 peut être déplacée entre l’activité 2 ([de l’activité 1 à l’activité 2] ou [de l’activité 2 à l’activité 1]).
+La flèche bilatérale entre l'activité 1 et l'activité 2 indique que l'activité 1 peut être déplacée aussi bien de l'activité 1 à l'activité 2 que de l'activité 2 à l'activité 1.
+La flèche indiquant la direction de l'activité 1 vers l'activité 2 indique la possibilité de passer de l'activité 1 à l'activité 2, mais elle exclut la possibilité de passer de l'activité 2 à l'activité 1.
 
 <h4 align="left">L'interface Search</h4>
 
