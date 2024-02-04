@@ -21,6 +21,11 @@ Ce projet consiste à concevoir et réaliser d’un système d’application mob
 
 Ce projet est spécifiquement conçu pour l'application mobile principale, destinée à offrir une expérience optimale aux clients. Il y compris des fonctionnalités essentielles telles que la navigation intuitive à travers les produits, la gestion du panier d'achat, le processus de paiement à réception, la gestion du compte utilisateur, ainsi que la fonction de recherche pour faciliter la découverte des produits souhaités.
 
+<!---<h4 align="left">L'interfaces Login, Register et RecoverPassword</h4>--->
+
+
+
+
 <h4 align="left">L'interface Home</h4>
 L'interface Home est l'interface initiale de l'application vous offre la possibilité de parcourir les produits et de faire des recherches. Cependant, pour ajouter des produits à votre panier, une connexion est nécessaire. Vous pouvez effectuer cette connexion en accédant à votre profil.
 <p align="center">
