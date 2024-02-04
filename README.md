@@ -1,10 +1,13 @@
 <h1 align="left">Développement d’un système d’application mobile d’achat en ligne avec Android Studio.</h1>
 <h2 align="left">Description</h3>
   <p>
-    Ce projet consiste à concevoir et réaliser un system mobile d’achat en ligne avec Android Studio,  une applications mobile pour l’achat en ligne, et deux applications pour la gestion et la livraison.
+    Ce projet consiste à concevoir et réaliser un system mobile d’achat en ligne avec Android Studio, une applications mobile pour l’achat en ligne (BioMarket), et deux applications pour la gestion (BioMarketAdmin) et la livraison (BioMarketDelivery).
   </p>
 <h3 align="left">La premier application "BioMarket"</h3>
 <h4 align="left">L'interface Home</h4>
+<h4 align="left">L'interface Search</h4>
+<h4 align="left">L'interface Profile</h4>
+<h4 align="left">L'interface Pannier</h4>
 
 <!-- <h2 align="left">Le but du projet système BioMarket</h3>
 <h2 align="left">Les vues du projet et comment les utiliser.</h3>
