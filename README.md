@@ -92,14 +92,36 @@ La section du panier comprend à la fois la page d'accueil (fragment) et une act
 
 <h3 align="left">La deuxième application "BioMarketAdmin" - <a href="https://github.com/Fouad011/BioMarketAdmin.git" >BioMarketAdmin repository</a></h3>
 
+La deuxième application, "BioMarketAdmin", est spécifiquement conçue pour les administrateurs et les gestionnaires afin de superviser et gérer les aspects opérationnels du système d'achat en ligne BioMarket.
+
+
+<h4 align="left">L'interface Home</h4>
+L'interface "home" de l'application BioMarketAdmin est conçue pour fournir une vue d'ensemble et un accès rapide aux fonctionnalités administratives essentielles. Elle offre un tableau de bord centralisé destiné aux gestionnaires et administrateurs. Voici une description de ses caractéristiques principales :
+<ul>
+  <li><i><b>Ajouter des Produits :</b></i> Les administrateurs peuvent accéder à une fonction dédiée pour ajouter de nouveaux produits au catalogue. Cette fonctionnalité inclut la possibilité de spécifier des détails tels que le nom du produit, la description, le prix, la catégorie, et de télécharger des images pour une représentation visuelle.</li>
+  <li><i><b>Gestion des Produits :</b></i> Outre l'ajout de produits, l'interface permet également aux administrateurs d'éditer les informations existantes sur les produits. Ils peuvent mettre à jour les descriptions, ajuster les prix, modifier les quantités en stock, et même supprimer des produits du catalogue si nécessaire.</li>
+  <li><i><b>Suivi des Commandes :</b></i> Permet aux administrateurs de diriger les commandes vers le livreur approprié, facilitant ainsi une gestion efficace de la logistique de livraison.</li>
+  <li><i><b>Ajouter des Livreurs :</b></i> Une fonction distincte permet d'ajouter de nouveaux livreurs au système. Les administrateurs peuvent saisir les détails pertinents, tels que le nom, les coordonnées</li>
+</ul>
+
+<p align="center">
+  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/homePageAdmin.png" height="700"/>
+</p>
 
 
 
-<h3 align="left">La troisième application "BioMarketDelivery" - <a href="https://github.com/Fouad011/BioMarketDelivery.git" >BioMarketDelivery repository</a></h3>
+
+
+
+
 
 
 
 <!---
+
+<h3 align="left">La troisième application "BioMarketDelivery" - <a href="https://github.com/Fouad011/BioMarketDelivery.git" >BioMarketDelivery repository</a></h3>
+
+
 
 <h2 align="left">Les vues du projet et comment les utiliser.</h3>
 <h2 align="left">Des liens pertinents et des personnes à contacter pour plus d'informations</h3>-->
