@@ -20,6 +20,11 @@ La flèche indiquant la direction de l'activité 1 vers l'activité 2 indique la
 
 <h4 align="left">L'interface Search</h4>
 
+
+<p align="center">
+  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/recherche.png" height="700"/>
+</p>
+
 <h4 align="left">L'interface Profile</h4>
 
 <h4 align="left">L'interface Pannier</h4>
