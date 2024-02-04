@@ -35,7 +35,7 @@ l'algorithme responsable de la recherche dans la base de données examine la ré
 <h4 align="left">L'interface Profile</h4>
 
 <p align="center">
-  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/ProfilShema.jpg" height="700"/>
+  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/ProfilShema.jpg" height="1000"/>
 </p>
 
 
