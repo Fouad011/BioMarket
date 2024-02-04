@@ -105,7 +105,7 @@ L'interface "home" de l'application BioMarketAdmin est conçue pour fournir une 
 </ul>
 
 <p align="center">
-  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/homePageAdmin.png" height="700"/>
+  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/homePageAdmin.png" height="400"/>
 </p>
 
 
