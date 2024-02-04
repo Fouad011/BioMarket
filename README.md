@@ -66,7 +66,7 @@ L'interface Pannier affiche les produits que l’utilisateur a ajouté à son pa
 
 
 <p align="center">
-  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/interfacePannier.jpg" height="1000"/>
+  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/PannierShema.jpg" height="1000"/>
 </p>
 
 
