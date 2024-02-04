@@ -35,7 +35,7 @@ l'algorithme responsable de la recherche dans la base de données examine la ré
 <h4 align="left">L'interface Profile</h4>
 
 <p align="center">
-  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/recherche.png" height="700"/>
+  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/ProfilShema.jpg" height="700"/>
 </p>
 
 
@@ -47,7 +47,7 @@ l'algorithme responsable de la recherche dans la base de données examine la ré
 
 
 
-<!-- <h2 align="left">Le but du projet système BioMarket</h3>
+<!-- h2 align="left">Le but du projet système BioMarket</h3>
 <h2 align="left">Les vues du projet et comment les utiliser.</h3>
 <h2 align="left">Des liens pertinents et des personnes à contacter pour plus d'informations</h3>-->
 
