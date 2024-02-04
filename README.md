@@ -11,6 +11,10 @@ L'interface initiale de l'application vous offre la possibilité de parcourir le
   <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/interfaceHome.jpg" height="700"/>
 </p>
 
+<!--Cette section comprend la première page (fragment) et deux activités (Activity), la la première page (fragment) Contient les catégories et les classifications, une activité permet l’affichage des produits par catégories et classifications, Il contient une section qui peut certains produits associés au produit affiché sur cette page, Par lequel vous pouvez revenir à la page d’accueil (fragment) ou aller aux détails d’un produit particulier (l'autre activité).-->
+
+Cette section englobe à la fois la première page (fragment) et deux activités (Activity). La première page (fragment) est spécifiquement consacrée aux catégories et classifications des produits. Une des activités facilite la présentation des produits organisés selon leurs catégories et classifications respectives. Cela offre la flexibilité de revenir à la page d'accueil (fragment) ou de se diriger vers les détails d'un produit particulier grâce à l'autre activité. De plus, cette activité intègre une section mettant en avant certains produits associés à celui affiché sur la page, enrichissant ainsi l'expérience de l'utilisateur.
+
 <h4 align="left">L'interface Search</h4>
 
 <h4 align="left">L'interface Profile</h4>
