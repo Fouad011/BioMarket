@@ -55,11 +55,16 @@ La section "Profil" comprend la page d'accueil (fragment) et quatre activités (
 <h4 align="left">L'interface Pannier</h4>
 
 
+<p align="center">
+  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/interfacePannier.jpg" height="1000"/>
+</p>
 
 
 
 
 
+
+<!---
 
 <h2 align="left">Les vues du projet et comment les utiliser.</h3>
 <h2 align="left">Des liens pertinents et des personnes à contacter pour plus d'informations</h3>-->
