@@ -75,7 +75,7 @@ L'interface Pannier affiche les produits que l’utilisateur a ajouté à son pa
 
 
 <p align="center">
-  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/PannierShema.jpg" height="400"/>
+  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/PannierShema.jpg" height="1000"/>
 </p>
 
 
@@ -107,6 +107,12 @@ L'interface "home" de l'application BioMarketAdmin est conçue pour fournir une 
 <p align="center">
   <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/homePageAdmin.png" height="400"/>
 </p>
+
+<h4 align="left">L'interface AddProduct</h4>
+<h4 align="left">L'interface Customize Products</h4>
+<h4 align="left">L'interface Orders</h4>
+<h4 align="left">L'interface AddDelivery</h4>
+
 
 
 
