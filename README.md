@@ -33,10 +33,13 @@ l'algorithme responsable de la recherche dans la base de données examine la ré
 
 
 <h4 align="left">L'interface Profile</h4>
+L’interface "profil" est une section où les utilisateurs peuvent gérer leurs informations personnelles et leurs paramètres. Dans cette interface , l’utilisateur voit le nom du client en haut de l’écran. Ensuite, il peut accéder à deux onglets : "Profile informations" et "My commands".
 
 <p align="center">
   <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/ProfilShema.jpg" height="1000"/>
 </p>
+
+La section "Profil" comprend la page d'accueil (fragment) et quatre activités (activities). La page d'accueil propose deux activités, dont l'une est dédiée à la visualisation et à la modification des informations personnelles, tandis que l'autre permet de modifier la photo de profil. Les deux autres activités autorisent la navigation, l'une étant dédiée à l'affichage des commandes et l'autre à l'affichage des informations de commande et de son statut
 
 
 <h4 align="left">L'interface Pannier</h4>
