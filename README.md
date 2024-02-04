@@ -95,7 +95,7 @@ La section du panier comprend à la fois la page d'accueil (fragment) et une act
 La deuxième application, "BioMarketAdmin", est spécifiquement conçue pour les administrateurs et les gestionnaires afin de superviser et gérer les aspects opérationnels du système d'achat en ligne BioMarket.
 
 
-<h4 align="left">L'interface Home</h4>
+<h4 align="left">L'interfaces</h4>
 L'interface "home" de l'application BioMarketAdmin est conçue pour fournir une vue d'ensemble et un accès rapide aux fonctionnalités administratives essentielles. Elle offre un tableau de bord centralisé destiné aux gestionnaires et administrateurs. Voici une description de ses caractéristiques principales :
 <ul>
   <li><i><b>Ajouter des Produits :</b></i> Les administrateurs peuvent accéder à une fonction dédiée pour ajouter de nouveaux produits au catalogue. Cette fonctionnalité inclut la possibilité de spécifier des détails tels que le nom du produit, la description, le prix, la catégorie, et de télécharger des images pour une représentation visuelle.</li>
@@ -105,13 +105,20 @@ L'interface "home" de l'application BioMarketAdmin est conçue pour fournir une 
 </ul>
 
 <p align="center">
-  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/homePageAdmin.png" height="400"/>
+  <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/ShemaAdmin.jpg" height="1000"/>
 </p>
 
-<h4 align="left">L'interface AddProduct</h4>
-<h4 align="left">L'interface Customize Products</h4>
-<h4 align="left">L'interface Orders</h4>
-<h4 align="left">L'interface AddDelivery</h4>
+
+
+
+
+
+
+
+
+
+<h3 align="left">La troisième application "BioMarketDelivery" - <a href="https://github.com/Fouad011/BioMarketDelivery.git" >BioMarketDelivery repository</a></h3>
+
 
 
 
