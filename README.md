@@ -18,12 +18,17 @@ Cette section englobe à la fois la première page (fragment) et deux activités
 La flèche bilatérale entre l'activité 1 et l'activité 2 indique que l'activité 1 peut être déplacée aussi bien de l'activité 1 à l'activité 2 que de l'activité 2 à l'activité 1.
 La flèche indiquant la direction de l'activité 1 vers l'activité 2 indique la possibilité de passer de l'activité 1 à l'activité 2, mais elle exclut la possibilité de passer de l'activité 2 à l'activité 1.
 
-<h4 align="left">L'interface Search</h4>
 
+
+<h4 align="left">L'interface Search</h4>
+L'interface "Search" (fragment) permet aux utilisateurs de trouver rapidement et facilement les produits qu'ils recherchent, tout en mettant en évidence la possibilité d'identifier la fourchette de prix des produits.
 
 <p align="center">
   <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/recherche.png" height="700"/>
 </p>
+
+<b>Important</b>
+L'algorithme responsable de la recherche dans la base de données examine la récurrence de chaque mot de la requête de recherche dans les produits, en considérant à la fois le titre et la description. Il présente ensuite les produits dont le taux de répétition d'un mot est d'environ 25% ou plus. Par exemple, si la recherche porte sur "lait de vache marocain 1l", un produit contenant les mots "lait", "vache", "marocain" et "1l" sera priorisé, tandis qu'un produit ne contenant que le mot "îles" sera négligé dans les résultats, même s'il existe.
 
 <h4 align="left">L'interface Profile</h4>
 
