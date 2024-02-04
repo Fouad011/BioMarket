@@ -13,6 +13,10 @@ Le projet système BioMarket vise à créer une plateforme d'achat en ligne spé
 <h2 align="left">Description</h2>
 Ce projet consiste à concevoir et réaliser d’un système d’application mobile d’achat en ligne avec Android Studio, une applications mobile pour l’achat en ligne (BioMarket), et deux applications pour la gestion (BioMarketAdmin) et la livreasion (BioMarketDelivery).
 
+
+
+
+
 <h3 align="left">La premier application "BioMarket" - <a href="https://github.com/Fouad011/BioMarket.git" >BioMarket repository</a></h3>
 
 Ce projet est spécifiquement conçu pour l'application mobile principale, destinée à offrir une expérience optimale aux clients. Il y compris des fonctionnalités essentielles telles que la navigation intuitive à travers les produits, la gestion du panier d'achat, le processus de paiement à réception, la gestion du compte utilisateur, ainsi que la fonction de recherche pour faciliter la découverte des produits souhaités.
@@ -75,6 +79,18 @@ La section du panier comprend à la fois la page d'accueil (fragment) et une act
 
 
 
+
+
+<!---  BioMarketAdmin App --->
+
+
+
+<h3 align="left">La deuxième application "BioMarketAdmin" - <a href="https://github.com/Fouad011/BioMarketAdmin.git" >BioMarketAdmin repository</a></h3>
+
+
+
+
+<h3 align="left">La troisième application "BioMarketDelivery" - <a href="https://github.com/Fouad011/BioMarketDelivery.git" >BioMarketDelivery repository</a></h3>
 
 
 
