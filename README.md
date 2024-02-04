@@ -5,7 +5,9 @@
   </p>
 <h3 align="left">La premier application "BioMarket"</h3>
 <h4 align="left">L'interface Home</h4>
-  <h5 align="left"> - - - - </h5>
+  <p>
+    L'interface initiale de l'application vous offre la possibilité de parcourir les produits et de faire des recherches. Cependant, pour ajouter des produits à votre panier, une connexion est nécessaire. Vous pouvez effectuer cette connexion en accédant à votre profil.
+  </p>
 <h4 align="left">L'interface Search</h4>
 <h4 align="left">L'interface Profile</h4>
 <h4 align="left">L'interface Pannier</h4>
