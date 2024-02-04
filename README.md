@@ -8,7 +8,7 @@ Ce projet consiste à concevoir et réaliser d’un système d’application mob
 <h4 align="left">L'interface Home</h4>
 L'interface initiale de l'application vous offre la possibilité de parcourir les produits et de faire des recherches. Cependant, pour ajouter des produits à votre panier, une connexion est nécessaire. Vous pouvez effectuer cette connexion en accédant à votre profil.
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="400" height="400"/>
 
 
 <h4 align="left">L'interface Search</h4>
