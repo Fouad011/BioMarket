@@ -44,7 +44,7 @@ l'algorithme responsable de la recherche dans la base de données examine la ré
   <img src="https://github.com/Fouad011/imagesBioMarketSystem/blob/main/serachShema.jpg" height="700"/>
 </p>
 
-
+La section de recherche contient la page d’accueil (fragment) et l’activité (activity) qui permet d’accéder aux détails du produit.
 
 
 <h4 align="left">L'interface Profile</h4>
