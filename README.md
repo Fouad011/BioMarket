@@ -1,4 +1,4 @@
-<h1 align="left">Développement d’un système d’application mobile d’achat en ligne avec Android Studio.</h1>
+<h1 align="left">Développement d’un système d’application mobile d’achat en ligne avec Android Studio. BioMarket, BioMarketAdmin et BioMarketDelivery</h1>
 
 <h2 align="left">Le but du projet système BioMarket</h2>
 Le projet système BioMarket vise à créer une plateforme d'achat en ligne spécialisée dans les produits biologiques. L'objectif principal est de fournir une expérience d'achat pratique et conviviale pour les clients intéressés par des produits biologiques et écologiques. Voici quelques-uns des objectifs spécifiques du projet BioMarket :
